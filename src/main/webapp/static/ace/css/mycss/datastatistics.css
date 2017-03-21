@@ -1,0 +1,38 @@
+.container {
+	margin: 0;
+	padding: 0;
+	width: 100%;
+}
+
+.top>div:nth-child(1) {
+	position: relative;
+	width: 45%;
+	height: 350px;
+	float: left;
+	padding: 10px;
+}
+
+.top>div:nth-child(2) {
+	width: 45%;
+	height: 350px;
+	padding: 10px;
+	float: left;
+}
+
+#tagsList a {
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	font-family: Microsoft YaHei;
+	text-decoration: none;
+	padding: 3px 6px;
+}
+
+#tagsList a:hover {
+	color: #FF0000;
+	letter-spacing: 2px;
+}
+
+.clearfloat {
+	overflow: hidden;
+}
